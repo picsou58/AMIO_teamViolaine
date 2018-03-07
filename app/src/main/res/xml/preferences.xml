@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <EditTextPreference android:title="Your email address"
+        android:key="from"
+        android:summary="Please provide your email address"></EditTextPreference>
+    <EditTextPreference android:title="Destination email"
+        android:key="to"
+        android:summary="Please provide the email to which project_AMIO should send notifications"></EditTextPreference>
+    <EditTextPreference android:title="Hour to start notifying during the week"
+        android:key="startHourNotifWeek"
+        android:summary="The time when the App should start sending notifications during the week"></EditTextPreference>
+    <EditTextPreference android:title="Hour to stop notifying during the week"
+        android:key="endHourNotifWeek"
+        android:summary="The time when the App should stop sending notifications during the week"></EditTextPreference>
+    <EditTextPreference android:title="Hour to start notifying during the week end"
+        android:key="startHourMailWeek"
+        android:summary="The time when the App should start sending notifications during the week end"></EditTextPreference>
+    <EditTextPreference android:title="Hour to stop notifying during the week end"
+        android:key="endHourMailWeek"
+        android:summary="The time when the App should stop sending notifications during the week end"></EditTextPreference>
+    <EditTextPreference android:title="Hour to start emailing during the week end"
+        android:key="startHourMailWeekEnd"
+        android:summary="The time when the App should start sending mails during the week end"></EditTextPreference>
+    <EditTextPreference android:title="Hour to stop emailing during the week end"
+        android:key="endHourMailWeekEnd"
+        android:summary="The time when the App should stop sending mails during the week end"></EditTextPreference>
+</PreferenceScreen>
